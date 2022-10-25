@@ -1,12 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Frontpage from '@/components/Frontpage'
-import Menu from '@/components/Menu.vue'
-import reservation from '@/components/reservation.vue'
-import menubreakfast from '@/components/menubreakfast.vue'
-import MenuDinner from '@/components/MenuDinner.vue'
-import MenuDrinks from '@/components/MenuDrinks.vue'
-import classes from '@/components/classes.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -19,32 +13,32 @@ export default new Router({
     {
       path: '/Menu',
       name: 'Menu',
-      component: Menu
+      component: () => import('@/components/Menu.vue')
     },
     {
       path: '/menubreakfast',
       name: 'menubreakfast',
-      component: menubreakfast
+      component: () => import('@/components/menubreakfast.vue')
     },
     {
       path: '/reservation',
       name: 'reservation',
-      component: reservation
+      component: () => import('@/components/reservation.vue')
     },
     {
       path: '/MenuDinner',
       name: 'MenuDinner',
-      component: MenuDinner
+      component: () => import('@/components/MenuDinner.vue')
     },
     {
       path: '/MenuDrinks',
       name: 'MenuDrinks',
-      component: MenuDrinks
+      component: () => import('@/components/MenuDrinks.vue')
     },
     {
       path: '/classes',
       name: 'classes',
-      component: classes
+      component: () => import('@/components/classes.vue')
     }
   ]
 })
