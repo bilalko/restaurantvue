@@ -1,4 +1,12 @@
-body {
+#load {
+    width: 206.7vh;
+    height: 100vh;
+    position: absolute;
+    background-color: #151320;
+}
+
+
+#body {
     margin: 0;
     padding: 0;
     background-image: url("frontpage.png");

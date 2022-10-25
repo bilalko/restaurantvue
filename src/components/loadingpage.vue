@@ -14,11 +14,9 @@ export default {
     }
   },
   mounted () {
-    document.onreadystatechange = () => {
-      if (document.readyState === 'complete') {
-        this.isloaded = true
-      }
-    }
+    setTimeout(() => {
+      this.isloaded = true
+    }, 1500)
   }
 }
 </script>

@@ -2,6 +2,8 @@
 
 <template>
 <body>
+    <loadingpageVue id="load"></loadingpageVue>
+    <main id="body">
     <footer>
                 <router-link to="/Menu">
                   <button>Menu</button>
@@ -32,7 +34,7 @@
         <article id="honey">
             <div>
             <img src="./Italian.png">
-            <h1>Salade Style</h1>
+            <h1>honey Style</h1>
             <p>1er Aout 2023</p>
             </div>
         </article>
@@ -44,5 +46,16 @@
             </div>
         </article>
     </section>
+    </main>
 </body>
 </template>
+
+<script>
+import loadingpageVue from './loadingpage.vue'
+
+export default {
+  components: {
+    loadingpageVue
+  }
+}
+</script>

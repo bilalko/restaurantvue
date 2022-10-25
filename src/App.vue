@@ -1,18 +1,12 @@
 <template>
   <div id="app">
-    <loadingpageVue/>
     <router-view/>
   </div>
 </template>
 
 <script>
-import loadingpageVue from './components/loadingpage.vue'
-
 export default {
-  name: 'App',
-  components: {
-    loadingpageVue
-  }
+  name: 'App'
 }
 </script>
 

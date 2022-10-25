@@ -2,6 +2,8 @@
 
 <template>
 <body>
+    <loadingpageVue id="load"></loadingpageVue>
+    <div id="body">
     <header>
        <img id="image1" src="./logo.png">
     </header>
@@ -19,8 +21,16 @@
             <button id="boutton4">RESERVE UNE TABLE</button>
         </router-link>
     </footer>
-    <section>
-
-    </section>
+    </div>
 </body>
 </template>
+
+<script>
+import loadingpageVue from './loadingpage.vue'
+
+export default {
+  components: {
+    loadingpageVue
+  }
+}
+</script>

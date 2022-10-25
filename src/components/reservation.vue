@@ -2,6 +2,8 @@
 
 <template>
 <body>
+  <loadingpageVue id="load"></loadingpageVue>
+    <main id="body">
     <div id="div1">
     <header>
        <img id="image1" src="./logo.png">
@@ -37,10 +39,14 @@
         </form>
     </section>
     </div>
+    </main>
 </body>
 </template>
 
 <script>
+
+import loadingpageVue from './loadingpage.vue'
+
 export default {
   methods: {
     demo: () => {
@@ -77,6 +83,9 @@ export default {
         })
       }
     }
+  },
+  components: {
+    loadingpageVue
   }
 }
 </script>

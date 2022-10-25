@@ -2,6 +2,8 @@
 
 <template>
 <body>
+    <loadingpageVue id="load"></loadingpageVue>
+    <main id="body">
     <div id="div1">
     <header>
        <img id="image1" src="./logo.png">
@@ -61,10 +63,14 @@
         </article>
     </section>
     </div>
+    </main>
 </body>
 </template>
 
 <script>
+
+import loadingpageVue from './loadingpage.vue'
+
 export default {
   data () {
     return {
@@ -72,6 +78,9 @@ export default {
       prix2: 19.99,
       prix3: 19.99
     }
+  },
+  components: {
+    loadingpageVue
   }
 }
 </script>

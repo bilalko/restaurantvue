@@ -1,4 +1,5 @@
 footer {
+    z-index: 1;
     background-color: white;
     padding: 12px;
     border-radius: 30px;
@@ -8,10 +9,18 @@ footer {
     left: 710px;
 }
 
-body {
+#load {
+    z-index: 10;
+    width: 206.7vh;
     height: 100vh;
+    position: absolute;
+    background-color: #151320;
 }
 
+
+#body {
+    height: 100vh;
+}
 
 h1 {
     font-family: "chillax", sans-serif;
