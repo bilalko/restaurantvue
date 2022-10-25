@@ -1,0 +1,111 @@
+footer {
+    background-color: white;
+    padding: 12px;
+    border-radius: 30px;
+    margin: 20px;
+    position: absolute;
+    top: 850px;
+    left: 710px;
+}
+
+body {
+    height: 100vh;
+}
+
+
+h1 {
+    font-family: "chillax", sans-serif;
+font-size: 40px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: center;
+cursor: pointer;
+}
+
+
+button {
+    padding: 10px 20px; 
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 15px;
+    text-transform: uppercase;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#boutton4 {
+    background-color: rgba(0, 0, 0, 0.932);
+    color: white;
+    border-radius: 10px;
+}
+
+h1 {
+    color: white;
+    background: 
+    linear-gradient(currentColor 0 0) 
+    bottom /var(--d, 0) 3px no-repeat;
+   transition:0.5s;
+}
+
+
+p {
+   color: white;
+}
+
+#coffee {
+    background-image: url("imgcoffee.png");
+}
+
+#honey {
+    background-image: url("imghoney.png");
+}
+
+#pancake {
+    background-image: url("imgpancake.png");
+}
+
+#vegan {
+    background-image: url("imgburger.png");
+}
+
+button {
+    background: 
+      linear-gradient(currentColor 0 0) 
+      bottom /var(--d, 0) 3px no-repeat;
+     transition:0.5s;
+  }
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+}
+
+img {
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 52px;
+}
+
+button:hover,h1:hover{
+    z-index: 60;
+    --d: 100%;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+article {
+    width: 100vh;
+}

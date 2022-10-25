@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#div1 {
+    background-image: url("left1.png");
+    height: 100vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#image3 {
+    margin-top: 50px;
+    border: none;
+}
+
+#div2{
+    width: 60%;
+    margin: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 550px;
+    height: 45px;
+    background-color: transparent;
+    box-shadow: none;
+    border: 0.1px grey solid;
+    color: white;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+#submit {
+    background-color: #F8D49E;
+    color: black;
+    margin-top:40px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border-radius: 25px;
+}
+
+input::placeholder {
+    opacity: .8;
+    color: white;
+}
+
+label {
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #D9D9D9;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+h1 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+article {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 85vh;
+
+}
+
+#image1 {
+    margin-top: 50px;
+    border: none;
+}
+
+#section1 {
+    background-color: white;
+    padding: 12px;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+
+button {
+    padding: 10px 20px; 
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 15px;
+    text-transform: uppercase;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#boutton4 {
+    background-color: rgba(0, 0, 0, 0.932);
+    color: white;
+    border-radius: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+button {
+    background: 
+      linear-gradient(currentColor 0 0) 
+      bottom /var(--d, 0) 3px no-repeat;
+     transition:0.5s;
+  }
+
+
+button:hover{
+    z-index: 60;
+    --d: 100%;
+}
