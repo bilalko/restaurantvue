@@ -38,7 +38,7 @@
         </article>
         <article id="vegan">
             <div>
-            <img src="./vegan.png">
+            <img src="./Dinner.png">
             <h1>Vegan Style</h1>
             <p>1er Septembre 2023</p>
             </div>
